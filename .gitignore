@@ -1,0 +1,13 @@
+# WordPress sensitive files
+wp-config.php
+
+# Uploads & cache
+wp-content/uploads/
+wp-content/cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
