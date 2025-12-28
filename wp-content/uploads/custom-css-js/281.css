@@ -1,0 +1,91 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Ajouter votre code CSS ici.
+                     
+Par exemple:
+.exemple {
+    color: red;
+}
+
+Pour améliorer vos connaissances en CSS, visitez http://www.w3schools.com/css/css_syntax.asp
+
+Fin du commentaire */ 
+/* === Conteneur et labels === */
+.wpcf7-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Conteneur champ + icône */
+.cf-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Icônes dans les champs */
+.cf-field i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #4CAF50;
+  font-size: 18px;
+}
+
+/* Champs texte, email, téléphone, adresse, message */
+.cf-input, .cf-textarea, .cf-file {
+  width: 100%;
+  padding: 12px 15px 12px 45px; /* espace pour l’icône */
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+/* Hover + focus */
+.cf-input:focus, .cf-textarea:focus, .cf-file:focus {
+  border-color: #4CAF50;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  outline: none;
+}
+
+/* Zone texte */
+.cf-textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Bouton Envoyer */
+.cf-btn {
+  background: #4CAF50;
+  color: #fff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cf-btn:hover {
+  background: #43a047;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Messages d’erreur */
+.wpcf7-not-valid-tip {
+  color: red;
+  font-size: 14px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
