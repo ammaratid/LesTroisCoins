@@ -1,13 +1,17 @@
-# WordPress sensitive files
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+/wp-content/uploads/
 wp-config.php
 
-# Uploads & cache
-wp-content/uploads/
-wp-content/cache/
+# Wordfence
+/wp-content/wflogs/
 
-# OS / editor files
+# Cache & logs
+*.log
+.cache/
+
+# OS
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
